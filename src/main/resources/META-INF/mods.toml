@@ -1,0 +1,23 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+license="All rights reserved"
+[[mods]]
+modId="portfolio"
+version="1.19.2-1.2.0"
+displayName="Portfolio"
+logoFile= "logo.png"
+credits="Coder: SheddmerSTK  Artist: Yapetto"
+authors="SheddmerSTK, Yappeto"
+description='''Portfolio is a small mod that adds a couple custom paintings to the game, all of which were made by the talented artist Yapetto. These include paintings such as Cat, Blossoms, & Operator.'''
+[[dependencies.portfolio]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.portfolio]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19,1.20)"
+    ordering="NONE"
+    side="BOTH"
