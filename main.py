@@ -2,14 +2,16 @@ import os
 from PIL import Image
 import shutil
 
-portfolio_path = "/Users/andrewyin/Desktop/portfolio-1.20.1-1.4.0-forge"
-moddus_doltus_path = "/Users/andrewyin/Desktop/The Moddus Doltus/portfolio_xd/src/main/resources"
+real_name = "no doxxing..."
+
+portfolio_path = f"/Users/{real_name}/Desktop/portfolio-1.20.1-1.4.0-forge"
+moddus_doltus_path = f"/Users/{real_name}/Desktop/The Moddus Doltus/portfolio_xd/src/main/resources"
 
 minecraft_placeable = portfolio_path + "/data/minecraft/tags/painting_variant/placeable.json"
 lang = portfolio_path + "/assets/portfolio/lang/en_us.json"
 texture_folder = portfolio_path + "/assets/portfolio/textures/painting"
 
-registry_class_path = '/Users/andrewyin/Desktop/The Moddus Doltus/portfolio_xd/src/main/java/com/dolt/portfolio/PortfolioPaintings.java'
+registry_class_path = '/Users/{real_name}/Desktop/The Moddus Doltus/portfolio_xd/src/main/java/com/dolt/portfolio/PortfolioPaintings.java'
 new_lang_path = moddus_doltus_path + "/assets/portfolio/lang/en_us.json"
 new_tag_path = moddus_doltus_path + "/data/minecraft/tags/painting_variant/placeable.json"
 new_texture_path = moddus_doltus_path + "/assets/portfolio/textures/painting"
